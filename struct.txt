@@ -1,0 +1,15 @@
+Gesture-Controlled-Presentation-System/
+├── src/ # Source code
+│ ├── gesture_recognition/
+│ ├── presentation_control/
+│ ├── ml_models/
+│ ├── ui/
+│ ├── utils/
+│ └── tests/
+├── data/ # Gesture samples
+├── docs/ # Diagrams and flowcharts
+├── requirements.txt # Python dependencies
+├── SETUP.docx # Installation guide
+├── LICENSE.txt # MIT License
+├── logo-college.jpg # NIMS University logo
+└── README.md # This file
