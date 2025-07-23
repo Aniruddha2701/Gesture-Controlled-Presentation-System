@@ -43,6 +43,7 @@ Enable touchless slide navigation, pointer activation, and zooming features usin
 ---
 
 ## 🗂️ Project Structure
+See `struct.txt` for details.
 
 
 ---
@@ -72,6 +73,7 @@ Enable touchless slide navigation, pointer activation, and zooming features usin
 ---
 
 ### ⚙️ Setup (Step-by-step)
+See `SETUP.docx` for details.
 
 ---
 
@@ -121,7 +123,7 @@ See `LICENSE.txt` for details.
 
 - 🎓 NIMS University Rajasthan, Jaipur  
 - 🏫 NIMS Institute of Engineering & Technology  
-- 👨‍🏫 Faculty Guide: *(Add if applicable)*  
+- 👨‍🏫 Faculty Guide: *()*  
 - 🤖 Assistance and validation info via [Perplexity AI]
 
 ---
