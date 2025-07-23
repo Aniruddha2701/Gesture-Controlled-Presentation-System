@@ -3,7 +3,7 @@
 </p>
 
 # 🖐️ Gesture-Controlled Presentation System  
-**A Minor Project by B.Tech CSE Students – 6th Semester**  
+**A Minor Project by B.Tech CSE Students – 7th Semester**  
 🏫 *Nims Institute of Engineering & Technology, NIMS University Rajasthan, Jaipur*  
 🔗 [View on GitHub](https://github.com/Aniruddha2701/Gesture-Controlled-Presentation-System)
 
