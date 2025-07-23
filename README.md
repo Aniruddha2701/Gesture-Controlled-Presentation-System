@@ -73,4 +73,68 @@ Enable touchless slide navigation, pointer activation, and zooming features usin
 
 ### ⚙️ Setup (Step-by-step)
 
+---
+
+## ✋ Supported Gestures (Default)
+
+| Gesture                | Action               |
+|------------------------|----------------------|
+| Swipe Right            | Next Slide           |
+| Swipe Left             | Previous Slide       |
+| Open Palm (Hold)       | Start Slide Show     |
+| Closed Fist            | Pause/Stop Show      |
+| Index Finger Pointing  | Activate Laser Pointer |
+| Pinch                  | Zoom In              |
+| Spread/Open Palm       | Zoom Out             |
+
+> 🛠️ Customize gestures via the settings UI.
+
+---
+
+## 📂 Documentation
+
+📄 **SETUP.docx**  
+📁 **/docs** → Contains diagrams, flowcharts, and weekly planning  
+📷 **Demo Screenshots** → Coming soon in `/docs/`  
+📊 **PowerPoint Template** → Included in final ZIP  
+
+---
+
+## 🧪 Project Status
+
+- ✅ Hand tracking complete  
+- ✅ Basic gestures integrated  
+- 🔧 UI & gesture calibration module in progress  
+- 📅 Work aligned with weekly academic timeline  
+- 🔜 Final testing & packaging in August 2025  
+
+---
+
+## 📜 License
+
+This project is open-source under the **MIT License**.  
+See `LICENSE.txt` for details.
+
+---
+
+## 🙌 Acknowledgements
+
+- 🎓 NIMS University Rajasthan, Jaipur  
+- 🏫 NIMS Institute of Engineering & Technology  
+- 👨‍🏫 Faculty Guide: *(Add if applicable)*  
+- 🤖 Assistance and validation info via [Perplexity AI]
+
+---
+
+## 🌐 Contact
+
+**NIMS UNIVERSITY RAJASTHAN**  
+Jaipur-Delhi Highway, Jaipur - 303121, Rajasthan, India  
+🌐 Website: [www.nimsuniversity.org](http://www.nimsuniversity.org)
+
+---
+
+> 🔗 View / Fork the Project on GitHub:  
+> [https://github.com/Aniruddha2701/Gesture-Controlled-Presentation-System](https://github.com/Aniruddha2701/Gesture-Controlled-Presentation-System)
+
 
