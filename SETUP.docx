@@ -1,1 +1,127 @@
+### 📄 **SETUP.docx**
+
+**Title:**  
+**Gesture-Controlled Presentation System – Installation & Setup Guide**  
+**Project Type:** Minor Project | B.Tech CSE | Semester 6  
+**Institution:** NIMS Institute of Engineering & Technology, NIMS University Rajasthan, Jaipur
+
+### 1. 🧾 Project Introduction
+
+The **Gesture-Controlled Presentation System** is an AI-powered tool that enables presenters to control slide transitions, pointer actions, and zoom level using real-time hand gestures captured by a basic webcam. The motivation behind this system is to provide a **touchless, natural UI for classroom and business presentations**, especially in light of increased awareness around hygienic, contactless technology post-COVID.
+
+### 2. ⚙️ System Requirements
+
+| Requirement             | Minimum Specification                |
+|-------------------------|---------------------------------------|
+| Operating System        | Windows 10/11, macOS, or Linux        |
+| Python Version          | Python 3.8 or later                   |
+| Webcam                  | Minimum 720p resolution               |
+| RAM                     | 4 GB (Recommended: 8 GB)              |
+| Internet                | To install Python packages            |
+| Permissions             | Camera access must be allowed         |
+
+### 3. 📦 Required Libraries & Technologies
+
+This system utilizes the following major Python libraries:
+
+- **MediaPipe** — Hand gesture detection and tracking  
+- **OpenCV** — Image/video stream handling  
+- **PyAutoGUI** — Controlling keyboard and mouse events  
+- **NumPy** — Data handling  
+- **PyQt5/Tkinter** — Graphical User Interface (GUI) *(optional)*  
+- **SQLite3** — For storing settings and profiles  
+
+All dependencies are listed in `requirements.txt`.
+
+### 4. 📥 Setup Instructions
+
+#### Step 1: Clone the GitHub Repository
+```bash
+git clone https://github.com/Aniruddha2701/Gesture-Controlled-Presentation-System.git
+cd Gesture-Controlled-Presentation-System
+```
+
+#### Step 2: Create a Virtual Environment (optional but recommended)
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### Step 3: Install Required Packages
+```bash
+pip install -r requirements.txt
+```
+
+#### Step 4: Run the Gesture Tracking Module
+```bash
+python src/gesture_recognition/hand_tracker.py
+```
+
+#### Step 5: Calibrate & Customize Gestures (if UI provided)
+- Open the UI module using:
+```bash
+python src/ui/gesture_calibrator.py
+```
+- Follow the on-screen wizard to configure camera angles and assign custom gestures.
+
+### 5. 🖐 Available Gestures & Functions
+
+| Gesture                | Action                    |
+|------------------------|---------------------------|
+| Swipe Right            | Next Slide                |
+| Swipe Left             | Previous Slide            |
+| Open Palm (Hold)       | Play Slide Show           |
+| Closed Fist            | Pause/Stop Slide Show     |
+| Pointing Index Finger  | Laser Pointer             |
+| Pinch Gesture          | Zoom In                   |
+| Palm Spread Gesture    | Zoom Out                  |
+
+> These can be modified or trained through the Gesture Profile settings.
+
+### 6. 🛠 Troubleshooting
+
+| Issue                            | Solution                                                                   |
+|----------------------------------|----------------------------------------------------------------------------|
+| ❌ No webcam feed or black screen| Ensure webcam is connected and not used by another app                    |
+| ❌ ImportError / ModuleNotFound  | Re-run: `pip install -r requirements.txt` after activating venv           |
+| ❌ Gesture not detected accurately| Check lighting, hand position, and background contrast                    |
+| ❌ App freezes or lags           | Check if other heavy resources are running, upgrade RAM if needed         |
+
+### 7. 📁 Project Files/Folders
+
+| Folder/File             | Description                               |
+|--------------------------|-------------------------------------------|
+| `src/`                   | Source code modules                       |
+| `data/`                  | Sample training or input data             |
+| `docs/`                  | Flowcharts, diagrams, and planning files  |
+| `README.md`              | GitHub description and project highlights |
+| `requirements.txt`       | Project dependencies                      |
+| `SETUP.docx`             | This setup guide                          |
+| `Presentation_Template.pptx` | Presentation used for demo/viva         |
+
+### 8. 📞 Project Team Contact
+
+| Member Name        | Role                          |
+|--------------------|-------------------------------|
+| Aniruddha Maurya   | Project Lead – AI/Backend     |
+| Dhanvan Kumar      | UI/UX, Gesture Calibration    |
+| Anubhav Rai        | Testing, Logs, Documentation  |
+
+### 9. 📢 Acknowledgments
+
+Special thanks to:
+- Faculty Guide (Name, if applicable)  
+- NIMS Institute of Engineering & Technology  
+- NIMS University, Jaipur  
+- Open-source developers of MediaPipe, PyAutoGUI, and OpenCV
+
+### 10. 📜 License
+
+This project is licensed under the **MIT License**. For terms, see `LICENSE.txt`.
+
 
