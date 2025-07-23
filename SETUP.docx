@@ -106,16 +106,16 @@ python src/ui/gesture_calibrator.py
 
 ### 8. 📞 Project Team Contact
 
-| Member Name        | Role                          |
-|--------------------|-------------------------------|
-| Aniruddha Maurya   | Project Lead – AI/Backend     |
-| Dhanvan Kumar      | UI/UX, Gesture Calibration    |
-| Anubhav Rai        | Testing, Logs, Documentation  |
+| Member Name        | Role                          | Contact                         |
+|--------------------|-------------------------------|---------------------------------|
+| Aniruddha Maurya   | Project Lead – AI/Backend     |  priyanshumaurya7052@gmail.com  |
+| Dhanvan Kumar      | UI/UX, Gesture Calibration    |                                 |
+| Anubhav Rai        | Testing, Logs, Documentation  |                                 | 
 
 ### 9. 📢 Acknowledgments
 
 Special thanks to:
-- Faculty Guide (Name, if applicable)  
+- Faculty Guide ()  
 - NIMS Institute of Engineering & Technology  
 - NIMS University, Jaipur  
 - Open-source developers of MediaPipe, PyAutoGUI, and OpenCV
