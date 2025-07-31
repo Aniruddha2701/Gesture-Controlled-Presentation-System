@@ -1,0 +1,14 @@
+setup.py
+src/gesture_presentation.egg-info/PKG-INFO
+src/gesture_presentation.egg-info/SOURCES.txt
+src/gesture_presentation.egg-info/dependency_links.txt
+src/gesture_presentation.egg-info/top_level.txt
+src/gesture_recognition/__init__.py
+src/gesture_recognition/gesture_detector.py
+src/gesture_recognition/hand_tracking.py
+src/gesture_recognition/main.py
+src/gesture_recognition/tempCodeRunnerFile.py
+src/presentation_control/__init__.py
+src/presentation_control/control.py
+src/presentation_control/shortcut_manager.py
+src/presentation_control/window_manager.py

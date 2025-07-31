@@ -1,0 +1,17 @@
+{
+  "next_slide": "right",
+  "previous_slide": "left",
+  "start_slideshow": "f5",
+  "stop_slideshow": "esc",
+  "zoom_in": ["ctrl", "+"],
+  "zoom_out": ["ctrl", "-"],
+  "pointer_toggle": "ctrl",
+  "fullscreen_toggle": "f11",
+  "black_screen": "b",
+  "white_screen": "w",
+  "mute_toggle": "m",
+  "laser_pointer_toggle": ["ctrl", "l"],
+  "annotation_toggle": ["ctrl", "p"],
+  "next_section": "pageup",
+  "previous_section": "pagedown"
+}

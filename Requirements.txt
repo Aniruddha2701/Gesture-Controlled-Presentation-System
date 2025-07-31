@@ -1,0 +1,15 @@
+mediapipe>=0.10.0
+opencv-python>=4.9.0
+numpy>=1.24.0
+pillow>=9.0
+pyautogui>=0.9.50
+pygetwindow>=0.0.9
+pyqt5>=5.15.9
+pyttsx3>=2.90
+pywinauto>=0.6.8
+playsound>=
+
+ COMMANDS :--
+ pip install opencv-python mediapipe pyautogui numpy playsound
+ pip install -e . //(This installs your code in "editable" mode.)
+ python -m gesture_recognition.settings.settings_gui // Running the Gui settings

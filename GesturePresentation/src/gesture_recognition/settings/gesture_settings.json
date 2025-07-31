@@ -1,0 +1,8 @@
+{
+  "hold_duration_required": 0.5970873786407767,
+  "swipe_horizontal_threshold": 0.06072815533980583,
+  "scroll_vertical_threshold": 0.1492718446601942,
+  "finger_motion_cooldown": 0.8,
+  "zoom_cooldown": 0.6,
+  "smoothing_window": 6
+}

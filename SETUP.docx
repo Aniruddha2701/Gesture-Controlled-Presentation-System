@@ -1,0 +1,89 @@
+Certainly! Here’s a sample text content for your `SETUP.docx` (installation and setup guide). You can copy this text and use it to create a `.docx` file in Microsoft Word, Google Docs, or any word processor.
+
+# Gesture-Controlled Presentation System – Installation Guide
+
+## Prerequisites
+
+- **Python** (version 3.8 or higher)
+- **pip** (Python package manager; included with most Python installations)
+- **Git** (optional; for cloning the repository)
+- **Webcam** (720p or better recommended)
+- **Internet Connection** (to download dependencies)
+
+## 1. Clone the Repository
+
+1. Open a terminal (Command Prompt, PowerShell, or Terminal).
+2. Run:
+
+   ```
+   git clone https://github.com/Aniruddha2701/Gesture-Controlled-Presentation-System.git
+   ```
+
+3. Navigate to the project directory:
+
+   ```
+   cd Gesture-Controlled-Presentation-System/GesturePresentation
+   ```
+
+## 2. Install Python Dependencies
+
+All required Python packages are listed in `requirements.txt`.
+
+**Option 1: Install all dependencies at once**
+
+```
+pip install -r requirements.txt
+```
+
+**Option 2: Install packages individually**
+
+```
+pip install opencv-python mediapipe pyautogui numpy pillow pygetwindow pyqt5 pyttsx3 pywinauto
+```
+
+## 3. Running the Application
+
+1. Go to the source folder:
+
+   ```
+   cd src
+   ```
+
+2. To launch the main application:
+
+   ```
+   python main.py
+   ```
+
+3. A window will open showing webcam input with gesture feedback overlays.
+
+## 4. Common Troubleshooting
+
+- If you get errors about missing packages, ensure you installed all dependencies as described above.
+- For `pyautogui` to control your presentation, keep the presentation window active/focused.
+- If the webcam does not turn on, make sure it is not being used by another application.
+
+## 5. Project Structure Overview
+
+- **src/**: Source code modules.
+- **data/**: (Optional) Gesture sample datasets.
+- **docs/**: Documentation, diagrams, and planning.
+- **requirements.txt**: List of required Python packages.
+- **README.md**: Project overview and features.
+- **LICENSE.txt**: Project license.
+- **logo-college.jpg**: University/project logo.
+
+## 6. Additional Notes
+
+- You may customize gesture-action mappings in the code (`main.py` and related modules).
+- The system is cross-platform—tested on Windows, macOS, and Linux.
+- Refer to `README.md` for project details and supported gestures.
+
+## 7. Useful Links
+
+- [Project GitHub Repository](https://github.com/Aniruddha2701/Gesture-Controlled-Presentation-System)
+- [Official MediaPipe Documentation](https://google.github.io/mediapipe/)
+- [NIMS University Website](http://www.nimsuniversity.org)
+
+**For more help, see the `/docs` folder and the source code comments.**
+
